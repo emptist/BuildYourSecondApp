@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    // vs ObservedObject which is made else where
+    @StateObject var menu = Menu()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MenuView()
+            .environmentObject(Menu())
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView()//.environmentObject(Menu())
     }
 }
