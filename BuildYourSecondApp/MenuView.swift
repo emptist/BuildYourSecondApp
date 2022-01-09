@@ -19,12 +19,21 @@ struct MenuView: View {
                     ForEach(menu.sections) { section in
                         Section {
                             ForEach(section.drinks) { drink in
-                                VStack {
-                                    Text(drink.name)
-                                        .font(.system(.body, design:.serif))
+                                NavigationLink {
+                                    CustomizeView(drink: drink)
+                                } label: {
+                                    VStack {
+                                        Image(drink.image)
+                                            .resizable()
+                                            .scaledToFit()
+                                            .cornerRadius(10)
+                                        
+                                        Text(drink.name)
+                                            .font(.system(.body, design:.serif))
+                                    }
+                                    .padding(.bottom)
                                 }
-                                .padding(.bottom)
-                                
+                                .buttonStyle(.plain)
                             }
                         } header: {
                             Text(section.name)

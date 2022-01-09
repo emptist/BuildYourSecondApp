@@ -16,6 +16,8 @@
 		4854E68E278A9E8C00029907 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4854E68D278A9E8C00029907 /* MenuSection.swift */; };
 		4854E690278A9ECB00029907 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4854E68F278A9ECB00029907 /* Menu.swift */; };
 		4854E692278ABB9300029907 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4854E691278ABB9300029907 /* MenuView.swift */; };
+		4854E694278B08B100029907 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4854E693278B08B100029907 /* CustomizeView.swift */; };
+		4854E696278B0FCE00029907 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4854E695278B0FCE00029907 /* ConfigurationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		4854E68D278A9E8C00029907 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
 		4854E68F278A9ECB00029907 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		4854E691278ABB9300029907 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		4854E693278B08B100029907 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		4854E695278B0FCE00029907 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 				4854E67B278A846B00029907 /* BuildYourSecondAppApp.swift */,
 				4854E67D278A846B00029907 /* ContentView.swift */,
 				4854E691278ABB9300029907 /* MenuView.swift */,
+				4854E693278B08B100029907 /* CustomizeView.swift */,
 				4854E68B278A9CAC00029907 /* Drink.swift */,
+				4854E695278B0FCE00029907 /* ConfigurationOption.swift */,
 				4854E68D278A9E8C00029907 /* MenuSection.swift */,
 				4854E68F278A9ECB00029907 /* Menu.swift */,
 				4854E689278A9BA900029907 /* menu.json */,
@@ -158,6 +164,8 @@
 				4854E68C278A9CAC00029907 /* Drink.swift in Sources */,
 				4854E68E278A9E8C00029907 /* MenuSection.swift in Sources */,
 				4854E67C278A846B00029907 /* BuildYourSecondAppApp.swift in Sources */,
+				4854E696278B0FCE00029907 /* ConfigurationOption.swift in Sources */,
+				4854E694278B08B100029907 /* CustomizeView.swift in Sources */,
 				4854E690278A9ECB00029907 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
